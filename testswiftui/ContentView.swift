@@ -10,11 +10,11 @@ import SwiftUI
 struct ContentView: View {
   var body: some View {
     VStack {
-      Image(systemName: "person.fill")
-        .imageScale(.large)
-        .foregroundStyle(.tint)
-      Text("Hello, Nuvi!")
-        .font(.largeTitle)
+      TextField("Email", text: .constant(""))
+        .padding(.horizontal)
+        .padding(.vertical, 8)
+        .background(.gray.opacity(0.6))
+        .clipShape(RoundedRectangle(cornerRadius: 16))
     }
     .padding()
   }
