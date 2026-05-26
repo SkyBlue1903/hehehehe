@@ -15,6 +15,11 @@ struct ContentView: View {
         .padding(.vertical, 8)
         .background(.gray.opacity(0.6))
         .clipShape(RoundedRectangle(cornerRadius: 16))
+      Image(systemName: "chart.bar.horizontal.page")
+        .imageScale(.large)
+        .foregroundStyle(.tint)
+      Text("Hello, Justin!")
+        .font(.largeTitle)
     }
     .padding()
   }
