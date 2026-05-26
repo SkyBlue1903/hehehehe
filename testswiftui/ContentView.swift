@@ -10,10 +10,10 @@ import SwiftUI
 struct ContentView: View {
   var body: some View {
     VStack {
-      Image(systemName: "person.fill")
+      Image(systemName: "chart.bar.horizontal.page")
         .imageScale(.large)
         .foregroundStyle(.tint)
-      Text("Hello, Nuvi!")
+      Text("Hello, Justin!")
         .font(.largeTitle)
     }
     .padding()
